@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 20vh;
+  background: url("../assets/bg_head2.webp") no-repeat center center/cover;
+  color: rgb(255, 143, 236);
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+header #bgButton {
+  background: rgb(255, 143, 236);
+  color: black;
+  height: 50px;
+  width: 50px;
+  padding: 0.3rem 0.3rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: all 0.3s ease;
+}
+header #bgButton:hover {
+  border: 1px solid rgb(255, 143, 236);
+  background-color: transparent;
+  color: rgb(255, 143, 236);
+}
+header #bgButton:active {
+  background: rgb(255, 143, 236);
+  color: black;
+  border: none;
+}
+header #back {
+  border: none;
+  background-color: transparent;
+  color: rgb(255, 143, 236);
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+header #back:hover {
+  color: rgb(255, 57, 222);
+  transform: scale(1.1);
+}
+header #back:active {
+  color: rgb(255, 57, 222);
+  transform: scale(1.05);
+}
+
+#content {
+  padding: 50px;
+}
+
+#content h1 {
+  padding-bottom: 30px;
+  font-size: 2.5rem;
+}
+#content #cityInput {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid rgb(255, 143, 236);
+  border-radius: 15px;
+  font-size: 1.2rem;
+}
+#content button {
+  background: rgb(255, 194, 245);
+  color: black;
+  height: 50px;
+  width: 100px;
+  padding: 0.3rem 0.3rem;
+  border: 1px solid rgb(255, 57, 222);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#content button:hover {
+  background: rgb(255, 143, 236);
+  border: none;
+  transform: scale(1.05);
+  color: black;
+}
+#content button:active {
+  color: wheat;
+  filter: grayscale(50%);
+  transition: all 0.1s ease;
+}
+
+#weather {
+  width: 50%;
+  height: auto;
+  text-align: center;
+  padding: 50px;
+  background: rgb(255, 143, 236);
+  color: black;
+  border-radius: 45px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+}
+#weather h3 {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+#weather p {
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=main.css.map */
